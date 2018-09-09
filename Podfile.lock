@@ -1,0 +1,231 @@
+PODS:
+  - Alamofire (4.7.1)
+  - AlamofireImage (3.3.1):
+    - Alamofire (~> 4.5)
+  - AlamofireObjectMapper (5.0.0):
+    - Alamofire (~> 4.1)
+    - ObjectMapper (~> 3.0)
+  - AwaitKit (6.0.0):
+    - RxSwift (~> 4)
+  - BRPtouchPrinterKit (3.1.7)
+  - couchbase-lite-ios (1.4.1):
+    - couchbase-lite-ios/SQLite (= 1.4.1)
+  - couchbase-lite-ios/SQLite (1.4.1)
+  - Crashlytics (3.10.1):
+    - Fabric (~> 1.7.5)
+  - Differentiator (3.0.2)
+  - Dip (6.0)
+  - DropDown (2.3.1)
+  - DRPLoadingSpinner (1.3.1):
+    - DRPLoadingSpinner/core (= 1.3.1)
+  - DRPLoadingSpinner/core (1.3.1)
+  - Fabric (1.7.6)
+  - FontAwesomeKit (2.2.1):
+    - FontAwesomeKit/Core (= 2.2.1)
+    - FontAwesomeKit/FontAwesome (= 2.2.1)
+    - FontAwesomeKit/FoundationIcons (= 2.2.1)
+    - FontAwesomeKit/IonIcons (= 2.2.1)
+    - FontAwesomeKit/Material (= 2.2.1)
+    - FontAwesomeKit/Octicons (= 2.2.1)
+    - FontAwesomeKit/Zocial (= 2.2.1)
+  - FontAwesomeKit/Core (2.2.1)
+  - FontAwesomeKit/FontAwesome (2.2.1):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/FoundationIcons (2.2.1):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/IonIcons (2.2.1):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/Material (2.2.1):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/Octicons (2.2.1):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/Zocial (2.2.1):
+    - FontAwesomeKit/Core
+  - JTAppleCalendar (7.1.5)
+  - Material (2.14.0):
+    - Material/Core (= 2.14.0)
+  - Material/Core (2.14.0):
+    - Motion (~> 1.3.0)
+  - MaterialComponents/Ink (59.1.1):
+    - MaterialComponents/private/Math
+  - MaterialComponents/Palettes (59.1.1)
+  - MaterialComponents/private/Application (59.1.1)
+  - MaterialComponents/private/Math (59.1.1)
+  - MaterialComponents/private/ThumbTrack (59.1.1):
+    - MaterialComponents/Ink
+    - MaterialComponents/private/Math
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Typography
+    - MDFInternationalization
+  - MaterialComponents/ShadowElevations (59.1.1)
+  - MaterialComponents/ShadowLayer (59.1.1):
+    - MaterialComponents/ShadowElevations
+  - MaterialComponents/Slider (59.1.1):
+    - MaterialComponents/Palettes
+    - MaterialComponents/private/ThumbTrack
+    - MaterialComponents/ShadowElevations
+  - MaterialComponents/Typography (59.1.1):
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/Math
+  - MDFInternationalization (1.1.0)
+  - MMLanScan (3.0.0)
+  - Motion (1.3.5):
+    - Motion/Core (= 1.3.5)
+  - Motion/Core (1.3.5)
+  - Nimble (7.1.0)
+  - ObjcExceptionBridging (1.0.1):
+    - ObjcExceptionBridging/ObjcExceptionBridging (= 1.0.1)
+  - ObjcExceptionBridging/ObjcExceptionBridging (1.0.1)
+  - ObjectMapper (3.1.0)
+  - Quick (1.2.0)
+  - RxCocoa (4.1.2):
+    - RxSwift (~> 4.0)
+  - RxDataSources (3.0.2):
+    - Differentiator (~> 3.0)
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - RxExpect (1.1.0):
+    - RxCocoa (>= 4.0.0)
+    - RxSwift (>= 4.0.0)
+    - RxTest (>= 4.0.0)
+  - RxGesture (1.2.1):
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - RxOptional (3.4.0):
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - RxSwift (4.1.2)
+  - RxTest (4.1.2):
+    - RxSwift (~> 4.0)
+  - SnapKit (4.0.0)
+  - Swifter (1.4.1)
+  - SwiftWebSocket (2.7.0)
+  - SwiftyUserDefaults (3.0.1)
+  - XCGLogger (6.0.2):
+    - XCGLogger/Core (= 6.0.2)
+  - XCGLogger/Core (6.0.2):
+    - ObjcExceptionBridging
+
+DEPENDENCIES:
+  - Alamofire (~> 4.5)
+  - AlamofireImage (~> 3.3)
+  - AlamofireObjectMapper (~> 5.0)
+  - AwaitKit (from `https://github.com/chinhnguyen/AwaitKit.git`, tag `6.0.0`)
+  - BRPtouchPrinterKit (from `https://github.com/chinhnguyen/BRPtouchPrinterKit.git`)
+  - couchbase-lite-ios (~> 1.4.1)
+  - Crashlytics (~> 3.10)
+  - Dip
+  - DropDown (~> 2.3)
+  - DRPLoadingSpinner
+  - Fabric
+  - FontAwesomeKit
+  - JTAppleCalendar (~> 7.1)
+  - Material (~> 2.12)
+  - MaterialComponents/Slider
+  - MMLanScan (~> 3.0)
+  - Nimble (~> 7.1)
+  - Quick (~> 1.2)
+  - RxDataSources (~> 3.0)
+  - RxExpect (~> 1.1.0)
+  - RxGesture (~> 1.2)
+  - RxOptional (~> 3.3)
+  - RxSwift (~> 4.0)
+  - RxTest (~> 4.1)
+  - SnapKit (~> 4.0)
+  - Swifter (~> 1.4.1)
+  - SwiftWebSocket
+  - SwiftyUserDefaults (~> 3.0.1)
+  - XCGLogger (~> 6.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AlamofireImage
+    - AlamofireObjectMapper
+    - couchbase-lite-ios
+    - Crashlytics
+    - Differentiator
+    - Dip
+    - DropDown
+    - DRPLoadingSpinner
+    - Fabric
+    - FontAwesomeKit
+    - JTAppleCalendar
+    - Material
+    - MaterialComponents
+    - MDFInternationalization
+    - MMLanScan
+    - Motion
+    - Nimble
+    - ObjcExceptionBridging
+    - ObjectMapper
+    - Quick
+    - RxCocoa
+    - RxDataSources
+    - RxExpect
+    - RxGesture
+    - RxOptional
+    - RxSwift
+    - RxTest
+    - SnapKit
+    - Swifter
+    - SwiftWebSocket
+    - SwiftyUserDefaults
+    - XCGLogger
+
+EXTERNAL SOURCES:
+  AwaitKit:
+    :git: https://github.com/chinhnguyen/AwaitKit.git
+    :tag: 6.0.0
+  BRPtouchPrinterKit:
+    :git: https://github.com/chinhnguyen/BRPtouchPrinterKit.git
+
+CHECKOUT OPTIONS:
+  AwaitKit:
+    :git: https://github.com/chinhnguyen/AwaitKit.git
+    :tag: 6.0.0
+  BRPtouchPrinterKit:
+    :commit: eeb8d404bb8d686a2afb6b46c67aa9a5c48b175e
+    :git: https://github.com/chinhnguyen/BRPtouchPrinterKit.git
+
+SPEC CHECKSUMS:
+  Alamofire: 68d7d521118d49c615a8d2214d87cdf525599d30
+  AlamofireImage: 3b35b586853abaf94ca1250f4e94cff3c21a4c0d
+  AlamofireObjectMapper: 5fafc816351cbbc0d486611aaeba7461c0cbad49
+  AwaitKit: a5146c6c313a227adc7f686cd305374f6574a83f
+  BRPtouchPrinterKit: dd1f2a54497806f80a9ce301428a38572efaa18d
+  couchbase-lite-ios: 7c875538a0fc55a7e9744edb4e89c23737686230
+  Crashlytics: aee1a064cbbf99b32efa3f056a5f458d846bc8ff
+  Differentiator: a87be69eba49ec4ab460c7671143ee3a9eececfd
+  Dip: 316ad036509eaf3ef78e19699f32a9e01a5b3c3e
+  DropDown: 20499c7b2731b0d21609af924e47c7677a2be50d
+  DRPLoadingSpinner: 725e530bf4ebe2cc351b1fbc94d24fe8ac3300fd
+  Fabric: f8d42c893bb187326a7968b62abe55c36a987a46
+  FontAwesomeKit: 3614979b3dbb0ec3f7fac1bd760b91f66c31db67
+  JTAppleCalendar: 2d4f974f9f3c8b4964d51ca1f6e004883c031fbe
+  Material: c5bea030f57d4b903c5284200bb612d571c9ec03
+  MaterialComponents: 9ba063439c19dd92b3489bc2c4e428f2abaced65
+  MDFInternationalization: b5b8626628abf026e630e5ebaeee563037712cbb
+  MMLanScan: 86a0f77edbf163be30c1f58321469c7c8ce4c50e
+  Motion: 9f74d115d7f72bb5380a8e3cde2f8a1fc898ac36
+  Nimble: 9c6651c3021af6de54c3ed90a4a0a87d548f7359
+  ObjcExceptionBridging: c30e00eb3700467e695faeea30e26e18bd445001
+  ObjectMapper: 20505058f54e5c3ca69e1d6de9897d152a5369a6
+  Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
+  RxCocoa: d88ba0f1f6abf040011a9eb4b539324fc426843a
+  RxDataSources: cb7c31e652a87ebb919da45f716bbb87b3765f6b
+  RxExpect: 618ecd84f07b644e9fb436e1a0ec39363caa22b2
+  RxGesture: c278eb05b187abd47e11e65464ae4de53ab71d95
+  RxOptional: fabc37fc8e3cf4c336ebaeb5c92b576c64b2e6c5
+  RxSwift: e49536837d9901277638493ea537394d4b55f570
+  RxTest: e634f15fd2c2cd0e0120132ef7a4f7be69ad0393
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  Swifter: 62d14781d34600ffb6be99d350cf271be500600f
+  SwiftWebSocket: 612c9729fd503cb6b0b8b45390c788686dac306f
+  SwiftyUserDefaults: 3d273b1739b68ada3145dc754a70ec775bc5c8be
+  XCGLogger: c9601cae9a8912de34a58666ba931ed3d624dd31
+
+PODFILE CHECKSUM: 9efd05edde8d34a2e46720c1e9d19998f4d2b07d
+
+COCOAPODS: 1.5.3
